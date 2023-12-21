@@ -2,7 +2,6 @@ function christmasCountdown() {
     const christmasDate = new Date("December 31, 2023 00:00");
     const now = new Date();
     const diff = christmasDate - now;
-    console.log(diff);
 
     const msInSecond = 1000;
     const msInMinute = 60 * 1000;
@@ -35,7 +34,7 @@ let timerID = setInterval(christmasCountdown, 1000);
 
 function merryChristmas() {
     const heading = document.querySelector("h1");
-    heading.textContent = "MERRY CHRISTMAS!!! HO-HO-HO!"; 
+    heading.textContent = "WISH YOU A HAPPY NEW YEAR"; 
     heading.classList.add("red"); 
 }
 
