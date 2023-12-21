@@ -34,7 +34,7 @@ let timerID = setInterval(christmasCountdown, 1000);
 
 function merryChristmas() {
     const heading = document.querySelector("h1");
-    heading.textContent = "WISH YOU A HAPPY NEW YEAR"; 
+    heading.textContent = "Wish you a Happy New Year!"; 
     heading.classList.add("red"); 
 }
 
